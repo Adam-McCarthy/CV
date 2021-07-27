@@ -1,0 +1,130 @@
+h1,
+h2 {
+  color: #FF7171;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px
+}
+
+img {
+  background-color: #1d3557;
+}
+
+button,
+input[type="submit"],
+input[type="reset"] {
+  color: black;
+  background-color: #F0E4D7;
+  font-family: inherit;
+  margin-inline: 10px;
+  border: #a8dadc;
+  border-width: 2px;
+  border-radius: 10px;
+  border-style: solid;
+
+}
+
+button:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+  color: #F0E4D7;
+  background-color: #FF7171;
+
+}
+
+body {
+  background-color: #1d3557;
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  color: #f1faee;
+  letter-spacing: 0.5px;
+}
+
+section:first-of-type {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+#unilinks {
+  display: inline;
+}
+
+#studiesandsearch {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#studiesandsearch div:nth-of-type(2) {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: space-evenly;
+}
+
+#bio {
+  padding: 15px;
+}
+
+.searches {
+  margin: 3px;
+}
+
+input,
+textarea {
+  margin-inline: 10px;
+  background-color: #a8dadc;
+  border-radius: 8px;
+}
+
+a {
+  color: #FF7171;
+}
+
+hr {
+  background-color: #a8dadc;
+}
+
+.contactbutton {
+  margin: 2px;
+}
+
+a:hover {
+  color: #a8dadc;
+}
+
+@media (max-width: 768px) {
+  section:first-of-type {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #unilinks span {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    margin: 3px
+  }
+
+  #hobbies, #causes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 2;
+
+
+  }
+
+  #studiesandsearch {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+}
